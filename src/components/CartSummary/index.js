@@ -7,7 +7,7 @@ const cartSummary = props => {
       <div className="cart-summary-content">
         <div className="order-total-con">
           <h1 className="order-total-text">Order Total:</h1>
-          <p className="order-total-price">Rs {totalCartPrice}/-</p>
+          <h1 className="order-total-price">Rs {totalCartPrice}/-</h1>
         </div>
         <p className="total-cart-items-count">{totalCartItems} items in cart</p>
       </div>
