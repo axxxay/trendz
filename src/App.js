@@ -83,7 +83,7 @@ class App extends Component {
           if (eachCart.id === product.id) {
             return {
               ...eachCart,
-              quantity: product.quantity,
+              quantity: eachCart.quantity + product.quantity,
             }
           }
           return eachCart
